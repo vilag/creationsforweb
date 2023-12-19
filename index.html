@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AI.Tech - Artificial Intelligence HTML Template</title>
+    <title>Creations for web</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -49,19 +49,19 @@
             <nav class="navbar navbar-expand-lg navbar-dark p-0">
                 <a href="index.html" class="navbar-brand">
                     <!-- <h1 class="text-white">WEB<span class="text-dark">.</span>Develop</h1> -->
-                    <img src="img/logos/logo5.png" alt="" style="width: 220px;">
+                    <img src="img/logos/logo5.png" alt="" style="width: 190px;">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="project.html" class="nav-item nav-link">Projects</a>
-                        <div class="nav-item dropdown">
+                    <div class="navbar-nav ms-auto" style="background-color: #6B169F;">
+                        <a href="./" class="nav-item nav-link active">Inicio</a>
+                        <a href="#div_nosotros" class="nav-item nav-link">Nosotros</a>
+                        <a href="#div_servicios" class="nav-item nav-link">Servicios</a>
+                        <a href="#div_proyectos" class="nav-item nav-link">Proyectos</a>
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light mt-2">
                                 <a href="feature.html" class="dropdown-item">Features</a>
@@ -70,11 +70,11 @@
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div> -->
+                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
                     </div>
-                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                    <!-- <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                 </div>
             </nav>
         </div>
@@ -87,11 +87,11 @@
         <div class="container pt-5">
             <div class="row g-5 pt-5">
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">WEB.Develop</div>
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">Creations for WEB</div>
                     <h1 class="display-4 text-white mb-4 animated slideInRight">Desarrollo WEB</h1>
                     <p class="text-white mb-4 animated slideInRight">Te ayudamos a impulsar tu negocio mediante el diseño e implementacion de herramientas digitales a la medida.</p>
-                    <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Read More</a>
-                    <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                    <!-- <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Read More</a> -->
+                    <a href="contacto.html" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contáctanos</a>
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
                     <img class="img-fluid" src="img/76507_3.png" alt="">
@@ -124,7 +124,7 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="div_nosotros">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -166,7 +166,7 @@
 
 
     <!-- Service Start -->
-    <div class="container-fluid bg-light mt-5 py-5">
+    <div class="container-fluid bg-light mt-5 py-5" id="div_servicios">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -175,15 +175,30 @@
                     <p class="mb-4">Desde paginas web de aterrizaje, informativas, interactivas hasta sistemas complejos para admiistrar tu negocio.</p>
                     <!-- <a class="btn btn-primary rounded-pill px-4" href="">Read More</a> -->
                 </div>
+                <style>
+                    .caja_services{
+                        background-color: #fff; 
+                        color: #000;
+                    }
+                    .caja_services:hover{
+                        background-color: #6B169F; 
+                        color: #000;
+                    }
+                </style>
                 <div class="col-lg-7">
                     <div class="row g-4">
                         <div class="col-md-6">
                             <div class="row g-4">
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div class="service-icon btn-square">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded caja_services">
+                                        <!-- <div class="service-icon btn-square">
                                             <i class="fa fa-robot fa-2x"></i>
+                                            
+                                        </div> -->
+                                        <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                                            <img src="img/iconos/web.png" style="width: 100px;" alt="">
                                         </div>
+                                        
                                         <h5 class="mb-3">Paginas Web</h5>
                                         <p>Diseñamos paginas web segun tus necesidades, algunos ejemplos son: Paginas de aterrizaje o tambien conocidas
                                             como Landing Pages, paginas informativas, paginas interactivas.</p>
@@ -191,9 +206,12 @@
                                     </div>
                                 </div>
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div class="service-icon btn-square">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded caja_services">
+                                        <!-- <div class="service-icon btn-square">
                                             <i class="fa fa-power-off fa-2x"></i>
+                                        </div> -->
+                                        <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                                            <img src="img/iconos/pruebas.png" style="width: 100px;" alt="">
                                         </div>
                                         <h5 class="mb-3">Web Apps</h5>
                                         <p>Son paginas web optimizadas para dispositivos moviles, pueden ser utilizados desde tu navegador o mediante un APK de intalación para tu dispositivo.</p>
@@ -205,9 +223,12 @@
                         <div class="col-md-6 pt-md-4">
                             <div class="row g-4">
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div class="service-icon btn-square">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded caja_services">
+                                        <!-- <div class="service-icon btn-square">
                                             <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div> -->
+                                        <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                                            <img src="img/iconos/navegador.png" style="width: 100px;" alt="">
                                         </div>
                                         <h5 class="mb-3">Sistemas Web</h5>
                                         <p>Software creado 100% en un entorno web que te permitira digitalizar y automatizar los 
@@ -216,9 +237,12 @@
                                     </div>
                                 </div>
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div class="service-icon btn-square">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded caja_services">
+                                        <!-- <div class="service-icon btn-square">
                                             <i class="fa fa-brain fa-2x"></i>
+                                        </div> -->
+                                        <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                                            <img src="img/iconos/ecommerce.png" style="width: 100px;" alt="">
                                         </div>
                                         <h5 class="mb-3">Tiendas en linea</h5>
                                         <p>Te ayudamos en la implementacion de tu tienda en linea mediante un desarrollo escalable.</p>
@@ -290,10 +314,22 @@
         </div>
     </div> -->
     <!-- Feature End -->
+    <style>
+        .estilo_proj{
+            background-color: #6B169F; 
+            border-color: #6B169F; 
+            color: #fff;
+        }
+        .estilo_proj:hover{
+            background-color: #fff; 
+            border-color: #ffff; 
+            color: #6B169F;
+        }
+    </style>
 
 
     <!-- Case Start -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5" id="div_proyectos">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Proyectos</div>
@@ -303,55 +339,55 @@
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/portafolio/pgm.png" alt="">
-                        <a class="case-overlay text-decoration-none" href="https://pgmanage.host/login.php" target="_blank">
+                        <a class="case-overlay text-decoration-none" href="https://pgmanage.host/login.php" target="_blank" style="background-color: rgba(0,0,0,0.3);">
                             <small>PGManage</small>
                             <h5 class="lh-base text-white mb-3">Sistema de control de pedidos
                             </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            <span class="btn btn-square btn-primary estilo_proj"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/portafolio/pg.png" alt="">
-                        <a class="case-overlay text-decoration-none" href="https://www.pizarronesguadalajara.com/" target="_blank">
+                        <a class="case-overlay text-decoration-none" href="https://www.pizarronesguadalajara.com/" target="_blank" style="background-color: rgba(0,0,0,0.3);">
                             <small>Pizarrones Guadalajara</small>
                             <h5 class="lh-base text-white mb-3">Landing Page de productos
                             </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            <span class="btn btn-square btn-primary estilo_proj"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/portafolio/secadi.png" alt="">
-                        <a class="case-overlay text-decoration-none" href="https://secadiservicios.com/" target="_blank">
+                        <a class="case-overlay text-decoration-none" href="https://secadiservicios.com/" target="_blank" style="background-color: rgba(0,0,0,0.3);">
                             <small>SECADI Servicios</small>
                             <h5 class="lh-base text-white mb-3">Pagina informativa de servicios
                             </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            <span class="btn btn-square btn-primary estilo_proj"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/portafolio/fs.png" alt="">
-                        <a class="case-overlay text-decoration-none" href="https://fortalezadelasabiduria.creationsforweb.com/" target="_blank">
+                        <a class="case-overlay text-decoration-none" href="https://fortalezadelasabiduria.creationsforweb.com/" target="_blank" style="background-color: rgba(0,0,0,0.3);">
                             <small>Casa de descanso</small>
                             <h5 class="lh-base text-white mb-3">Pagina informativa de servicios
                             </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            <span class="btn btn-square btn-primary estilo_proj"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/portafolio/verbos.png" alt="">
-                        <a class="case-overlay text-decoration-none" href="https://verbos.site/" target="_blank">
+                        <a class="case-overlay text-decoration-none" href="https://verbos.site/" target="_blank" style="background-color: rgba(0,0,0,0.3);">
                             <small>Web App</small>
                             <h5 class="lh-base text-white mb-3">Practicar verbos Español - Inglés
                             </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            <span class="btn btn-square btn-primary estilo_proj"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
@@ -652,7 +688,7 @@
 
 
     <!-- Newsletter Start -->
-    <div class="container-fluid bg-primary newsletter py-5">
+    <!-- <div class="container-fluid bg-primary newsletter py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
@@ -671,7 +707,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Newsletter End -->
 
 
@@ -684,38 +720,36 @@
                         <!-- <h1 class="text-white">AI<span class="text-primary">.</span>Tech</h1> -->
                         <img src="img/logos/logo5.png" alt="" style="width: 220px;">
                     </a>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor</p>
+                    <p class="mb-0">Nuestra misión es la satisfacción de nuestros clientes mediante la implementación de herramientas digitales a la medida que impulsen el crecimiento de su negocio.</p>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <h5 class="text-white mb-4">Get In Touch</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h5 class="text-white mb-4">Ponerse en contácto</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Guadalajara, Jalisco México</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+52 333 255 0900</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@creationsforweb.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <h5 class="text-white mb-4">Popular Link</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Career</a>
+                    <h5 class="text-white mb-4">Navegación</h5>
+                    <a class="btn btn-link" href="#div_nosotros">Nosotros</a>
+                    <a class="btn btn-link" href="contacto.html">Contacto</a>
+                    <a class="btn btn-link" href="#">Privacy Policy</a>
+                    <a class="btn btn-link" href="#">Terms & Condition</a>
+                    <!-- <a class="btn btn-link" href="">Career</a> -->
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="text-white mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">Robotic Automation</a>
-                    <a class="btn btn-link" href="">Machine learning</a>
-                    <a class="btn btn-link" href="">Predictive Analysis</a>
-                    <a class="btn btn-link" href="">Data Science</a>
-                    <a class="btn btn-link" href="">Robot Technology</a>
+                    <h5 class="text-white mb-4">Nuestros servicios</h5>
+                    <a class="btn btn-link" href="#">Paginas Web</a>
+                    <a class="btn btn-link" href="#">Sistemas Web</a>
+                    <a class="btn btn-link" href="#">Web Apps</a>
+                    <a class="btn btn-link" href="#">Tiendas en linea</a>
+                    <!-- <a class="btn btn-link" href="#">Robot Technology</a> -->
                 </div>
             </div>
         </div>
@@ -723,19 +757,19 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">Creations for web</a>, All Right Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
+                    <!-- <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="">Home</a>
                             <a href="">Cookies</a>
                             <a href="">Help</a>
                             <a href="">FAQs</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -744,7 +778,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" style="background-color: #6B169F; border-color: #6B169F;" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
